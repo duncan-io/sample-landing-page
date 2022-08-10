@@ -1,0 +1,1 @@
+This is my landing page project for the Odin Project where I can showcase my skills with flex box and design
