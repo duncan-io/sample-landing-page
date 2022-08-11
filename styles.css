@@ -16,8 +16,9 @@ h2 {
     display: flex;
     background-color: #1f2937 ;
     margin: 0;
-    padding: 16px 16px;
-    justify-content: space-evenly;
+    padding: 16px 10vw;
+    justify-content: space-between;
+
 }
 
 .header a {
@@ -49,7 +50,7 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    width: 60vw;
+    width: 80vw;
 }
 
 .heroText {
@@ -59,7 +60,7 @@ h2 {
 
 .container img {
     flex-shrink: 3;
-    width: 400px;
+    width: 500px;
 }
 
 .hero button {
@@ -108,7 +109,7 @@ h2 {
     font-size: 36px;
     font-weight: light;
     color: #1f2937;
-    padding: 100px 50px;
+    padding: 100px 40px;
 }
 
 .testimonial p {
@@ -121,6 +122,37 @@ h2 {
     margin: auto;
 }
 
+.testiText p {
+    text-align: right;
+}
+
 em {
     font-weight: lighter;
+}
+
+/* CTA */
+
+.ctarea {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 150px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 32px 32px;
+    
+}
+
+.cta p {
+    margin: 0;
+    padding: 0;
+}
+
+.ctarea button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    font-weight: 900;
+    border-radius: 8px;
+    padding: 0px 30px;
 }
