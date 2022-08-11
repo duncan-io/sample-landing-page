@@ -32,7 +32,7 @@ h2 {
 .header ul {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 /* Hero Styling */
@@ -40,20 +40,26 @@ h2 {
 .hero {
     background-color: #1f2937;
     color: #F9FAF8;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 32px 16px;
 }
 
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 60vw;
+}
+
 .heroText {
-    width: 500px;
+    flex-grow: 3;
 }
 
 
-.hero img {
+.container img {
     flex-shrink: 3;
-    width: 500px;
+    width: 400px;
 }
 
 .hero button {
@@ -93,4 +99,28 @@ h2 {
     border: 5px solid #3882F6;
     border-radius: 8px;
     width: 150px;
+}
+
+/* Testimonial Section */
+
+.testimonial {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+    padding: 100px 50px;
+}
+
+.testimonial p {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.testiText {
+    width: 60vw;
+    margin: auto;
+}
+
+em {
+    font-weight: lighter;
 }
