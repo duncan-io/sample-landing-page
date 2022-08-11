@@ -1,9 +1,11 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
-h1 {
+h1,
+h2 {
     margin: 0;
     padding: 0;
 }
@@ -14,8 +16,7 @@ h1 {
     display: flex;
     background-color: #1f2937 ;
     margin: 0;
-    font-family: sans-serif;
-    padding: 0 16px;
+    padding: 16px 16px;
     justify-content: space-evenly;
 }
 
@@ -43,7 +44,6 @@ h1 {
     justify-content: space-around;
     align-items: center;
     padding: 32px 16px;
-    font-family: sans-serif;
 }
 
 .heroText {
@@ -62,4 +62,35 @@ h1 {
     color: #F9FAF8;
     border-radius: 12px;
     border: none;
+}
+
+/* Card/Feautes section styling */
+
+.features {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 80px;
+}
+
+.features h2 {
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.featurePics {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card {
+    flex-basis: 200px;
+    color: rgb(56, 56, 56);
+}
+
+.card img {
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+    width: 150px;
 }
